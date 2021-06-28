@@ -14,7 +14,7 @@ function destructivelyUpdateEmployeeWithKeyandValue(employee, key, value) {
 function updateEmployeeWithKeyAndValue(employee, key, value) {
   return Object.assign({}, employee, {name: 'Sam'}, {streetAddress: '11 Broadway'});
 }
-function destructivelyUpdateEmployeeWithKeyandValue(employee, key, value) {
+function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value) {
   employee['name'] = 'Sam';
   employee['streetAddress'] = '12 Broadway';
   return employee
